@@ -73,5 +73,31 @@
     padding: 50px 50px;
 }
 @media screen and (max-width:650px){
-    
+    #navybar{
+        flex-wrap: wrap;
+
+    }
+   
+    #nof{
+        padding: 10px 10px;
+    }
+    #mid{
+        flex-wrap: wrap;
+        font-size: smaller;
+
+    }
+    #book{
+        flex-wrap: wrap;
+       font-size: smaller;
+    }
+    #footer{
+        flex-wrap: wrap; 
+        grid-template-row: 1fr 1fr;
+}
+
+.girl{
+    height: 60%;
+    width: 30%;
+    border-radius: 70%;
+}
 }
