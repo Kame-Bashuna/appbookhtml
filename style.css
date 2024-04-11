@@ -1,0 +1,77 @@
+#navybar{
+    display: flex;
+    justify-content: space-around;
+}
+#log{
+    display: flex;
+    gap: 15%;
+}
+#button{
+    padding: 2px 2px;
+    width: 30%;
+    border-radius: 15%;
+    background-color: blue;
+    height:70% ;
+    margin-top: 3%;
+
+}
+#butto{
+    padding: 2px 2px;
+    height: 70%;
+    border-radius: 15%;
+    background-color: blue;
+    width: 70%;
+}
+#book{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30%;
+}
+#fav{
+    display: flex;
+    gap: 30%;
+}
+#mid{
+    display: flex;
+    justify-content: space-around;
+}
+#folow{
+    display: flex;
+    justify-content: space-between;
+}
+
+#set{
+    text-align: center;
+    font-size: x-large;
+    background-color: #D3DAEB;
+}
+.images{
+    width: 10%;
+    height: 10%;
+}
+#footer{
+    display: flex;
+    gap: 90px;
+
+}
+.girl{
+    height: 80%;
+    width: 70%;
+    border-radius: 70%;
+}
+#find{
+    font-size: x-large;
+}
+#largecontainer{
+    background-color:white;
+    border-radius: 10%;
+    
+}
+#nof{
+    background-color: #D3DAEB;
+    border-radius: 10%;
+    padding: 50px 50px;
+}
+@media screen and (max-width:650px){
+    
+}
