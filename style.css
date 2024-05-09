@@ -2,48 +2,50 @@
     display: flex;
     justify-content: space-around;
 }
-#log{
+#login{
     display: flex;
     gap: 15%;
 }
 #button{
-    padding: 2px 2px;
-    width: 30%;
-    border-radius: 15%;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 15px;
     background-color: blue;
-    height:70% ;
     margin-top: 3%;
+    height: 10%;
 
 }
-#butto{
+#button1{
     padding: 2px 2px;
-    height: 70%;
+    height: 40%;
     border-radius: 15%;
     background-color: blue;
     width: 70%;
+    color: wheat;
+    margin-top: 7%;
 }
-#book{
+#midpartnavbar{
     display: flex;
     justify-content: space-evenly;
     gap: 30%;
 }
-#fav{
+#favouritesearch{
     display: flex;
     gap: 30%;
 }
-#mid{
+#middle{
     display: flex;
     justify-content: space-around;
 }
-#folow{
+#folowimage{
     display: flex;
     justify-content: space-between;
 }
 
-#set{
+#midbottom{
     text-align: center;
     font-size: x-large;
-    background-color: #D3DAEB;
+    
 }
 .images{
     width: 10%;
@@ -59,7 +61,7 @@
     width: 70%;
     border-radius: 70%;
 }
-#find{
+#top part of section{
     font-size: x-large;
 }
 #largecontainer{
@@ -67,32 +69,35 @@
     border-radius: 10%;
     
 }
-#nof{
+#form{
     background-color: #D3DAEB;
     border-radius: 10%;
     padding: 50px 50px;
+
 }
+
+
 @media screen and (max-width:650px){
     #navybar{
         flex-wrap: wrap;
 
     }
    
-    #nof{
+    #form{
         padding: 10px 10px;
     }
-    #mid{
+    #middle{
         flex-wrap: wrap;
         font-size: smaller;
 
     }
-    #book{
+    #midpartnavbar{
         flex-wrap: wrap;
        font-size: smaller;
     }
     #footer{
-        flex-wrap: wrap; 
-        grid-template-row: 1fr 1fr;
+        flex-wrap: wrap;
+              
 }
 
 .girl{
@@ -101,7 +106,20 @@
     border-radius: 70%;
 }
 .images{
-    width: 30%;
+    
     height: 10%;
+}
+#button{
+    height: 5%;
+    width: 29%;
+    margin-right: 10%;
+}
+.h1{
+    font-size: smaller;
+}
+#button1{
+    height: 70%;
+    width: 90%;
+    
 }
 }
